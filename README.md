@@ -1,3 +1,20 @@
-پر کردن راحت سوالات نظرسنجی دانشگاه ازاد برای مشاهده نمره
-![alt tag](javascript:(function(){var valid=[null,"12","14","16","18","20"];grade="";function askgrade(){grade=prompt("نمره استاد را وارد کنید:");};askgrade();while(valid.indexOf(grade)==-1){askgrade()};document.querySelectorAll("select").forEach(function(e){e.value=grade;});})();)
-![alt tag](https://cloud.githubusercontent.com/assets/7765309/21961641/5119f45e-db24-11e6-8eb8-abd7fc6852ba.png)
+#پر کردن راحت سوالات نظرسنجی دانشگاه ازاد برای مشاهده نمره
+
+##شیوه استفاده:
+- کد زیر رو به طور کامل انتخاب و اون رو با موس به سمت نوار بوکمارک مرورگرتون بکشید
+```javascript
+javascript:(function(){var valid=[null,"12","14","16","18","20"];grade="";function askgrade(){grade=prompt("نمره استاد را وارد کنید:");};askgrade();while(valid.indexOf(grade)==-1){askgrade()};document.querySelectorAll("select").forEach(function(e){e.value=grade;});})();
+```
+
+- به صفحه نظرسنجی دانشگاه ازاد برید
+
+- رو بوکمارکی که در نوار بوکمارک شما ایجاد شده کلیک کنید و براساس جدول زیر عدد مدنظرتون رو وارد کنید
+
+نمره | توضیح
+:---: | :---:
+12 | ضعيف
+14 | متوسط
+16 | خوب
+18 | خيلي خوب
+20 | عالي
+
