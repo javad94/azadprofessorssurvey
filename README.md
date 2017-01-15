@@ -1,2 +1,2 @@
 پر کردن راحت سوالات نظرسنجی دانشگاه ازاد برای مشاهده نمره
-![alt tag](https://raw.githubusercontent.com/javad94/azadprofessorssurvey/master/logouni.png)
+![alt tag](javascript:(function () {var valid = [null,"12","14","16","18","20"];grade="";function askgrade() {grade = prompt("%D9%86%D9%85%D8%B1%D9%87 %D8%A7%D8%B3%D8%AA%D8%A7%D8%AF %D8%B1%D8%A7 %D9%88%D8%A7%D8%B1%D8%AF %DA%A9%D9%86%DB%8C%D8%AF:");};askgrade();while(valid.indexOf(grade) == -1) {askgrade()};document.querySelectorAll("select").forEach(function (e) {e.value = grade;});})();)
