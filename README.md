@@ -1,2 +1,3 @@
 پر کردن راحت سوالات نظرسنجی دانشگاه ازاد برای مشاهده نمره
-![alt tag](javascript:(function () {var valid = [null,"12","14","16","18","20"];grade="";function askgrade() {grade = prompt("%D9%86%D9%85%D8%B1%D9%87 %D8%A7%D8%B3%D8%AA%D8%A7%D8%AF %D8%B1%D8%A7 %D9%88%D8%A7%D8%B1%D8%AF %DA%A9%D9%86%DB%8C%D8%AF:");};askgrade();while(valid.indexOf(grade) == -1) {askgrade()};document.querySelectorAll("select").forEach(function (e) {e.value = grade;});})();)
+![alt tag](javascript:(function(){var valid=[null,"12","14","16","18","20"];grade="";function askgrade(){grade=prompt("نمره استاد را وارد کنید:");};askgrade();while(valid.indexOf(grade)==-1){askgrade()};document.querySelectorAll("select").forEach(function(e){e.value=grade;});})();)
+![alt tag](https://cloud.githubusercontent.com/assets/7765309/21961641/5119f45e-db24-11e6-8eb8-abd7fc6852ba.png)
