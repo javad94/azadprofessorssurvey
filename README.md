@@ -2,6 +2,7 @@
 
 <h2 dir="rtl">شیوه استفاده:</h2>
 <p dir="rtl">- کد زیر رو به طور کامل انتخاب و اون رو با موس به سمت نوار بوکمارک مرورگرتون بکشید و رها کنید</p>
+
 ```javascript
 javascript:(function(){var valid=[null,"12","14","16","18","20"];grade="";function askgrade(){grade=prompt("نمره استاد را وارد کنید:");};askgrade();while(valid.indexOf(grade)==-1){askgrade()};document.querySelectorAll("select").forEach(function(e){e.value=grade;});})();
 ```
