@@ -7,6 +7,9 @@
 javascript:(function(){var valid=[null,"12","14","16","18","20"];grade="";function askgrade(){grade=prompt("نمره استاد را وارد کنید:");};askgrade();while(valid.indexOf(grade)==-1){askgrade()};document.querySelectorAll("select").forEach(function(e){e.value=grade;});})();
 ```
 
+<h3 dir="rtl">ویدیوی اضافه کردن بوکمارکلت به مرورگر</h3>
+![adding bookmarklet](https://user-images.githubusercontent.com/7765309/34642855-91458178-f32f-11e7-91ef-81fd0b123087.gif)
+
 <p dir="rtl">- به صفحه نظرسنجی دانشگاه ازاد برید</p>
 
 <p dir="rtl">- رو بوکمارکی که در نوار بوکمارک شما ایجاد شده کلیک کنید و براساس جدول زیر عدد مدنظرتون رو وارد کنید</p>
