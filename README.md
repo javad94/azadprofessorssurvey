@@ -8,7 +8,8 @@ javascript:(function(){var valid=[null,"12","14","16","18","20"];grade="";functi
 ```
 
 <h3 dir="rtl">ویدیوی اضافه کردن بوکمارکلت به مرورگر</h3>
-![adding bookmarklet](https://user-images.githubusercontent.com/7765309/34642855-91458178-f32f-11e7-91ef-81fd0b123087.gif)
+
+![addbook](https://user-images.githubusercontent.com/7765309/34643067-f9e73796-f332-11e7-8c5c-adc6fd03ece3.gif)
 
 <p dir="rtl">- به صفحه نظرسنجی دانشگاه ازاد برید</p>
 
